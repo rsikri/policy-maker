@@ -1,0 +1,26 @@
+{
+  "name": "policymaker.io",
+  "version": "0.0.1",
+  "description": "Policymaker.io is a full fledged management information system, that helps policy makers to analyses data in unemployment, population, poverty and education domains, which help in making better informed decisions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devyash/policymaker.io.git"
+  },
+  "author": "Devyash Sanghai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devyash/policymaker.io/issues"
+  },
+  "homepage": "https://github.com/devyash/policymaker.io#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "oracledb": "https://github.com/oracle/node-oracledb/releases/download/v2.0.15/oracledb-src-2.0.15.tgz",
+    "restify": "^6.3.4",
+    "restify-plugins": "^1.6.0",
+    "simple-oracledb": "^1.1.60"
+  }
+}
